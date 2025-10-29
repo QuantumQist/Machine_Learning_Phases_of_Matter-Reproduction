@@ -58,5 +58,7 @@ These minor ambiguities do not affect the qualitative conclusions, but they shou
 ---
 
 **Author:** Robert Czupryniak
+
 **License:** MIT
+
 **Acknowledgment:** This reproduction uses data made publicly available by Juan Carrasquilla.
