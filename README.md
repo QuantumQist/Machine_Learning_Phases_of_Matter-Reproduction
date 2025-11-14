@@ -10,33 +10,18 @@ This repository reproduces the results corresponding to the **square-lattice Isi
 
 ## 1. Training Data
 
-### 1.1 Download
-
 The Monte Carlo training data used in this reproduction can be obtained from Juan Carrasquilla’s official data repository:  
 👉 [https://github.com/carrasqu/data_nature_phy_paper](https://github.com/carrasqu/data_nature_phy_paper)
 
 > *Note:* This repository is not directly referenced in the paper.  
 > I located it independently to ensure the use of the original datasets.
 
-Before running the notebook, download all datasets from that repository and extract them into a local folder named `data/`.  
-The expected directory structure is: `data/L_20/Xtrain.txt`
+Before running the notebook, all datasets should be downloaded from that repository and extract them into a local folder named `data/`.  
+The expected directory structure is: `data/L_20/Xtrain.txt`.
 
----
+The data is not provided in this notebook as I do not own it. 
 
-## 2. `utils.py`
-
-Contains helper functions for loading the training and test data from text files.  
-Each dataset is converted into PyTorch tensors and reshaped to the format expected by the neural-network model.
-
----
-
-## 3. `main_notebook.ipynb`
-
-Implements the full reproduction pipeline, including:
-- data loading and preprocessing,  
-- neural-network definition,  
-- training and validation routines, and  
-- visualization of results (average output vs. temperature, analogous to Fig. 1 in the paper).
+## 2. Files. 
 
 ---
 
