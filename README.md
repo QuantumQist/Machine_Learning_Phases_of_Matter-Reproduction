@@ -47,6 +47,10 @@ This file contains methods helping with evaluation, e.g., providing model accura
 
 This notebook implements the function loading the data used for training and testing. 
 
+### `repro_notebook.ipynb` 
+
+This notebook was produced in live-coding reproduction of the paper results avalable in (INSERT LINK LATER). Video language: Polish.
+
 ---
 
 ## Comments
