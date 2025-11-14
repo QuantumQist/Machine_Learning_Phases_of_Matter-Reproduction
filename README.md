@@ -23,6 +23,30 @@ The data is not provided in this notebook as I do not own it.
 
 ## 2. Files. 
 
+### `models` folder
+
+This folder contains pretrained models for different lattice sizes.
+
+### `training_notebook.ipynb`
+
+The notebook where we perform training of neural networks.
+
+### `model_evaluation.ipynb`
+
+This notebook contains the reproduction of figures from the original paper.
+
+### `engine.py`
+
+This file implements the method training the neural networks.
+
+### `helper_functions.py`
+
+This file contains methods helping with evaluation, e.g., providing model accuracy or making plots. 
+
+### `utils.py`
+
+This notebook implements the function loading the data used for training and testing. 
+
 ---
 
 ## Comments and Limitations
