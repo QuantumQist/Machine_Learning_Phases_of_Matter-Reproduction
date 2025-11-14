@@ -49,20 +49,10 @@ This notebook implements the function loading the data used for training and tes
 
 ---
 
-## Comments and Limitations
+## Comments
 
-This notebook represents my **best effort to faithfully reproduce** the results of Carrasquilla & Melko (2017) using **PyTorch** rather than TensorFlow.  
+This notebook represents my **best effort to faithfully reproduce** the results of Carrasquilla & Melko (2017) using **PyTorch** rather than TensorFlow used in the paper.  
 The central qualitative result — **phase classification across the critical temperature** — is successfully reproduced.  
-However, several implementation details remain ambiguous, as the paper does not specify them explicitly.  
-
-### Known ambiguities
-- The exact **L2 regularization coefficient** (weight-decay strength) is not reported.  
-- The **number of training epochs** is not stated; here, training continues until convergence is visually observed.  
-- The **label format** is unspecified. This implementation assumes integer binary labels (`0` or `1`), not one-hot vectors.  
-- The **spin representation** in the dataset is not discussed (`±1` vs. `0/1`).  
-  Using Carrasquilla’s released data resolved this uncertainty.
-
-These minor ambiguities do not affect the qualitative conclusions, but they should be noted for anyone attempting exact numerical reproduction.
 
 ---
 
