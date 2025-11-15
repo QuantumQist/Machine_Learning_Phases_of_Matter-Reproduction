@@ -66,6 +66,6 @@ The central qualitative result — **phase classification across the critical te
 
 **License:** MIT
 
-**Acknowledgment:** This reproduction uses data made publicly available by Juan Carrasquilla in https://github.com/carrasqu/data_nature_phy_paper](https://github.com/carrasqu/data_nature_phy_paper).
+**Acknowledgment:** This reproduction uses data made publicly available by Juan Carrasquilla in https://github.com/carrasqu/data_nature_phy_paper.
 
 All links provided in the repository were accessed on 11/14/2025.
